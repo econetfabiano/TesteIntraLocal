@@ -1,0 +1,60 @@
+
+body {
+	background-color:#F2F2F2;
+}
+
+.homeAniversariantes {
+	height: 323px;
+	border-radius: 2px;
+	background-color: #ffffff;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.27);
+}
+
+.homeComunicados {
+	height: 151px;
+	border-radius: 2px;
+	background-color: #ffffff;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.27);
+}
+
+.homeCardapios {
+	height: 323px;
+	border-radius: 2px;
+	background-color: #ffffff;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.27);
+}
+
+.homeComprovantes {
+	height: 151px;
+	border-radius: 2px;
+	background-color: #ffffff;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.27);
+}
+
+.homeGdc {
+	height: 151px;
+	border-radius: 2px;
+	background-color: #ffffff;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.27);
+}
+
+.homePainel {
+	height: 323px;
+	border-radius: 2px;
+	background-color: #ffffff;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.27);
+}
+
+.homeAtualizacoes {
+	height: 151px;
+	border-radius: 2px;
+	background-color: #ffffff;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.27);
+}
+
+.homeGincana {
+	height: 151px;
+	border-radius: 2px;
+	background-color: #ffffff;
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.27);
+}

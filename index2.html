@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="css/intranet.css" />
+<link type="text/css" rel="stylesheet" href="css/home.css" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/bin/materialize.js"></script>
+<script type="text/javascript" src="js/initial.js"></script>
+<script type="text/javascript">
+    $( document ).ready( function(){
+        /*$('.dropdown-button').dropdown();*/
+        /*$('.dropdown-button').dropdown({
+            inDuration: 300,
+            outDuration: 225,
+            constrainWidth: false, // Does not change width of dropdown to that of the activator
+            hover: false, // Activate on hover
+            gutter: 0, // Spacing from edge
+            belowOrigin: false, // Displays dropdown below the button
+            alignment: 'left', // Displays dropdown with edge aligned to the left of button
+            stopPropagation: false // Stops event propagation
+        });*/
+        $('.dropdown-button').dropdown('close');
+        
+
+        /*
+        $(".button-collapse").sideNav({
+            menuWidth: 300, // Default is 300
+            edge: 'right', // Choose the horizontal origin
+            closeOnClick: true, // Closes side-nav on <a> clicks, useful for Angular/Meteor
+            draggable: true // Choose whether you can drag to open on touch screens
+        });
+        $('.collapsible').collapsible();
+        */
+    });
+
+
+</script>
+</head>
+
+<body>
+
+<nav class="nav-extended blue darken-4">
+  <div class="nav-wrapper">
+    <a href="" class="brand-logo">Logo</a>
+    <ul class="right hide-on-med-and-down">
+      <li><a class="dropdown-button" href="#!" data-activates="menuUsuario">Usuário<i class="material-icons right">arrow_drop_down</i></a></li>
+    </ul>
+  </div>
+  <div class="nav-content">
+    <ul class="tabs">
+        <li class="tab"><a href="#">Home</a></li>
+        <li class="tab"><a href="#">Geral</a></li>
+        <li class="tab"><a href="#">Site</a></li>
+        <li class="tab"><a href="#">Gincana</a></li>
+        <li class="tab"><a href="#">Comercial</a></li>
+        <li class="tab"><a href="#">Meritocracia</a></li>
+        <li class="tab"><a href="#">Telefonia</a></li>
+        <li class="tab"><a href="#">Gestão</a></li>
+        <li class="tab"><a href="#">RH</a></li>
+        <li class="tab"><a href="#">Consultoria</a></li>
+        <li class="tab"><a href="#">Adm.Intranet</a></li>
+        <li class="tab"><a href="#" data-activates="menuLateral" class="button-collapse"><i class="material-icons">more_vert</i></a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- MENU USUARIO -->
+<ul id="menuUsuario" class="dropdown-content">
+  <li><a href="#">one</a></li>
+  <li><a href="#">two</a></li>
+  <li><a href="#">Sair</a></li>
+</ul>
+
+<!-- MENU LATERAL -->
+<ul id="menuLateral" class="side-nav">
+  <li>
+    <div class="userView">
+      <div class="background"><!--  <img src="images/office.jpg">--></div>
+      ---------------
+      <!--<a href="#!user"><img class="circle" src="images/yuna.jpg"></a>-->
+      <a href="#!name"><span class="white-text name">John Doe</span></a>
+      <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+    </div>
+  </li>
+  <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+  <li><a href="#!">Second Link</a></li>
+  <li><div class="divider"></div></li>
+  <li><a class="subheader">Subheader</a></li>
+  <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+</ul>
+
+<!-- CONTEUDO -->
+<div class="container">
+  <div class="row col s12">
+
+    <div class="col s3">
+      
+      <div class="card  homeAniversariantes">
+        <div class="card-content blue-text">
+          <span class="card-title">Aniversariantes</span>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col s6">
+    
+      <div class="col s12">
+      <div class="card homeComunicados">
+        <div class="card-content blue-text">
+          <span class="card-title">Comunicados</span>
+        </div>
+      </div>
+      </div>
+            
+      <div class="col s6">
+      <div class="card homeComprovantes">
+        <div class="card-content blue-text">
+          <span class="card-title">Comprovantes</span>
+        </div>
+      </div>
+      </div>
+
+      <div class="col s6">
+      <div class="card homeGdc">
+        <div class="card-content blue-text">
+          <span class="card-title">GDC</span>
+        </div>
+      </div>
+      </div>
+          
+    </div>
+
+    <div class="col s3">
+
+      <div class="card homeCardapios">
+        <div class="card-content blue-text">
+          <span class="card-title">Cardápio</span>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="col s12">
+
+      <div class="col s6">
+        
+        <div class="card homePainel">
+          <div class="card-content blue-text">
+            <span class="card-title">Painel</span>
+          </div>
+        </div>
+
+      </div>
+      <div class="col s6">
+
+        <div class="card homeAtualizacoes">
+          <div class="card-content blue-text">
+            <span class="card-title">Atualizações</span>
+          </div>
+        </div>
+
+        <div class="card homeGincana">
+          <div class="card-content blue-text">
+            <span class="card-title">Gincana Econet</span>
+          </div>
+        </div>
+
+      </div>
+        
+    </div>
+  </div>
+</div>
+
+
+<!--Import jQuery before materialize.js-->
+
+</body>
+</html>
